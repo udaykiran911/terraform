@@ -1,5 +1,5 @@
 #-------------------------------
-# Local Declarations
+# Local Declarationsa
 #-------------------------------
 locals {
   account_tier             = (var.account_kind == "FileStorage" ? "Premium" : split("_", var.skuname)[0])
